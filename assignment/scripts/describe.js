@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable called "name" and give it the value of "Dane"
+// We write an "if" statement for the "name" variable
+// if "name" equals Mary, we see "Hi Mary" in our console log
+// if  "name" does not equal Mary, we see "How do you do?" in our console log
+// console log will give us: "How do you do?"
 
 //CODE
 /*
@@ -45,10 +46,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable called "secret"
+// We declare a variable called "code" and set it to "123"
+// We are next going to see if your "code" is "super" or "duper"
+// If "code" equals "123", then "secret" equals "super" and "code" is multiplied by 2  
+// If "code" if larger than 250, then "secert" is equal to "duper"
+// Then we console log "secert"
+// Console log will give us: "super"
 
 //CODE
 /*
@@ -70,10 +74,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable called "isStudent" and give it the value of "ture"
+// We declare a variable called "age" and give it the value of "34"
+// We declare a variable called "zip" and give it the value of "55407"
+// Now we make an 'else if' staement for the "isStudent" variable
+// If "isStudent" is equal to "true" and has a "zip" number greater then "80000", console log will give "You're a student on the West Coast!"
+// If "isStudent" is equal to "false" or if "isStudent" if under the "age" number "30", console log will return "What are your hobbies?"
+// If "isStudent" is equal to "true", then console log will return "Welcome to Prime"
+// If "isStudent" is none of the stated conditions, the console log will read "How about the weather?"
+// Console.log should give us, "Welcome to Prime"
 
 //CODE
 /*
@@ -134,10 +143,18 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+
+//FIX: switch colors of variables.  colorOne should equal 'blue' and colorTwo should equal 'red'
+// let colorOne = 'blue';
+// let colorTwo = 'red';
+// It's also just colorOne that turns purple, colorTwo remains the same
+
+
 if (mix === true) {
   colorOne = 'purple';
 }
 */
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -150,6 +167,9 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+
+//FIX: in description it states temp is higher then 39 AND if time is greater or equal to 4, when it should be OR.
+// "We check if the temp is higher than 39 OR if the time is greater or equal to 4"
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -165,5 +185,8 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+
+//FIX: within the 'if statement', the wrong operator is used.  The less than operator needs to be changed to greater than operator.
+// if(minAge > age)
 */
 
